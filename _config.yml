@@ -22,8 +22,11 @@ title: HASS Assignment 2
 email: yustynn@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Using Jekyll is arguably overkill, but I wanted a quick gh-pages compatible way to use markdown.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+domain: yustynn.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://yustynn.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /HASS-assignment2      # place folder name if the site is served in a subfolder
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  
 
