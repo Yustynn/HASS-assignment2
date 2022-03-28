@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://yustynn.github.io/HASS-assignment2/feed.xml" rel="self" type="application/atom+xml" /><link href="https://yustynn.github.io/HASS-assignment2/" rel="alternate" type="text/html" /><updated>2022-03-29T01:34:03+08:00</updated><id>https://yustynn.github.io/HASS-assignment2/feed.xml</id><title type="html">HASS Assignment 2</title><subtitle>Using Jekyll is arguably overkill, but I wanted a quick gh-pages compatible way to use markdown.</subtitle><entry><title type="html">Bad Visualization 2: A terrible pie chart</title><link href="https://yustynn.github.io/HASS-assignment2/answer/2022/03/28/bad-pie.html" rel="alternate" type="text/html" title="Bad Visualization 2: A terrible pie chart" /><published>2022-03-28T22:24:29+08:00</published><updated>2022-03-28T22:24:29+08:00</updated><id>https://yustynn.github.io/HASS-assignment2/answer/2022/03/28/bad-pie</id><content type="html" xml:base="https://yustynn.github.io/HASS-assignment2/answer/2022/03/28/bad-pie.html">&lt;p&gt;&lt;img src=&quot;/assets/images/bad-pie.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/dataisugly/comments/tnjf06/im_blue_da_ba_dee_da_ba_di/&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;basics-of-current-visualization&quot;&gt;Basics of current visualization&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Target Audience: Administrators of a university (I’m making a big assumption here, but need it to evaluate this properly)&lt;/li&gt;
+  &lt;li&gt;Exploration or explanation: Exploration&lt;/li&gt;
+  &lt;li&gt;Purpose: Highlight the racial distribution of the undergraduate population&lt;/li&gt;
+  &lt;li&gt;Story: None (exploration)&lt;/li&gt;
+  &lt;li&gt;Idiom: Pie chart&lt;/li&gt;
+  &lt;li&gt;Data scale of proportion: Ratio&lt;/li&gt;
+  &lt;li&gt;Data scale of race: Nominal&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;issues&quot;&gt;Issues&lt;/h2&gt;
+&lt;h3 id=&quot;bad-idiom-choice&quot;&gt;Bad Idiom Choice&lt;/h3&gt;
+&lt;p&gt;The relative differences between some of the wedges (e.g. 4.53% vs 4.63%) are difficult to visually ascertain with a bar chart because the angles are similar&lt;/p&gt;
+
+&lt;p&gt;Suggestion: Use a bar chart instead with labels of each exact percentage. The height levels are easier to visually inspect&lt;/p&gt;
+
+&lt;h3 id=&quot;bad-channel-for-wedge-color&quot;&gt;Bad channel for wedge color&lt;/h3&gt;
+&lt;p&gt;Currently uses various shades of graded blue (saturation, a magnitude channel) for nominal data (which should use an identity channel)&lt;/p&gt;
+
+&lt;p&gt;Suggestion: Use hue (a categorical color scale) instead of saturation.&lt;/p&gt;
+
+&lt;h3 id=&quot;bad-color-scale-for-wedge-color&quot;&gt;Bad color scale for wedge color&lt;/h3&gt;
+&lt;p&gt;The gradient makes interpreting the legend difficult.&lt;/p&gt;
+
+&lt;p&gt;Suggestion: Use a solid color&lt;/p&gt;
+
+&lt;h2 id=&quot;suggested-viz-mockup&quot;&gt;Suggested Viz Mockup&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/bad-pie-suggestion.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="answer" /><summary type="html"></summary></entry><entry><title type="html">Bad Visualization 1: A small exploration on the fragility of badness</title><link href="https://yustynn.github.io/HASS-assignment2/answer/2022/03/28/twin-towers.html" rel="alternate" type="text/html" title="Bad Visualization 1: A small exploration on the fragility of badness" /><published>2022-03-28T22:24:29+08:00</published><updated>2022-03-28T22:24:29+08:00</updated><id>https://yustynn.github.io/HASS-assignment2/answer/2022/03/28/twin-towers</id><content type="html" xml:base="https://yustynn.github.io/HASS-assignment2/answer/2022/03/28/twin-towers.html">&lt;p&gt;&lt;img src=&quot;/assets/images/twin-towers.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/shittydataisbeautiful/comments/gkk8bk/height_of_world_trade_center/&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;goodnessbadness-of-visualization-depends-on-interpretation&quot;&gt;Goodness/Badness of Visualization Depends on Interpretation&lt;/h2&gt;
+&lt;p&gt;In particular, it’s fragile to the interpretation of the following:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Who is the target audience?&lt;/li&gt;
+  &lt;li&gt;What is purpose? E.g. if it’s explanation, what’s the story?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;perspective-1-without-a-sense-of-humor-this-is-a-terrible-visualization&quot;&gt;Perspective 1: Without a sense of humor, this is a terrible visualization&lt;/h2&gt;
+&lt;h3 id=&quot;basics-of-current-visualization&quot;&gt;Basics of current visualization&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Target Audience: People interested in the height of the WTC over time&lt;/li&gt;
+  &lt;li&gt;Exploration or explanation: Explanation&lt;/li&gt;
+  &lt;li&gt;Purpose: Inform people of the sudden drop in height after 2001&lt;/li&gt;
+  &lt;li&gt;Story: Height is stable at ~1750ft until 2001, after which it is 0&lt;/li&gt;
+  &lt;li&gt;Idiom: 3D bar chart&lt;/li&gt;
+  &lt;li&gt;Data scale: Ratio&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;issues&quot;&gt;Issues&lt;/h3&gt;
+&lt;h4 id=&quot;wrong-abstraction&quot;&gt;Wrong abstraction&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Story is about presence of height, not particular value of height&lt;/li&gt;
+  &lt;li&gt;Suggestion: re-encode the magnitude channel of the bar chart into an identity channel (has height vs doesn’t have height)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;wrong-data-scale&quot;&gt;Wrong data scale&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Should be ordinal (only 2 distinct values ordered by magnitude), or even nominal (a binary encoding to highlight)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;bad-idiom-choice&quot;&gt;Bad idiom choice&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;3rd spatial dimension encodes no additional information&lt;/li&gt;
+  &lt;li&gt;Bar chart values are needlessly imprecise&lt;/li&gt;
+  &lt;li&gt;A lot of ink to show very little information (not the same as a low data-to-ink ratio. This is more like information-to-ink ratio and is an encoding problem)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;insufficient-data-to-establish-trend&quot;&gt;Insufficient data to establish trend&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Suggestion: add 20 years of height data before and after&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;data-is-inaccurate&quot;&gt;Data is inaccurate&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Height of WTC is 13&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;suggested-viz-mockup&quot;&gt;Suggested Viz Mockup&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/twin-towers-suggestion.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;perspective-2-with-a-sense-of-humor-this-is-very-good&quot;&gt;Perspective 2: With a sense of humor, this is very good&lt;/h2&gt;
+&lt;h3 id=&quot;basics-of-current-visualization-1&quot;&gt;Basics of current visualization&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Target Audience: People who enjoy dark humor&lt;/li&gt;
+  &lt;li&gt;Exploration or explanation: Explanation&lt;/li&gt;
+  &lt;li&gt;Purpose: Make audience laugh&lt;/li&gt;
+  &lt;li&gt;Story: The planes that destroyed the twin towers changed their height to 0ft&lt;/li&gt;
+  &lt;li&gt;Idiom: 3D bar chart&lt;/li&gt;
+  &lt;li&gt;Data scale: Ratio&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;nice-touches&quot;&gt;Nice touches&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Great idiom choice: 3D barchart allowed a symbolic representation of the two towers (using the bar volumes of the first two datapoints)
+    &lt;ul&gt;
+      &lt;li&gt;Note: Data scale needs to be ratio for this joke to work, so that the bar chart symbol of the towers can be constructed out of the magnitude channel&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The indirect encoding of the data of the planes crashing makes the joke funnier, as the audience comes to the realization of what is truly represented on their own
+    &lt;ul&gt;
+      &lt;li&gt;Would be less funny if the audience hadn’t gone through the emotional journey of confusion (Why did the height suddenly drop? Oh 9/11 LOL) and were just told the takeaway directly (no 9/11 until 2001)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="answer" /><summary type="html"></summary></entry></feed>
