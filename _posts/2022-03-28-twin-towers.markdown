@@ -5,7 +5,7 @@ date:   2022-03-28 22:24:29 +0800
 categories: answer
 ---
 
- ![](/assets/images/twin-towers.png)
+ ![]({{ site.baseurl }}/assets/images/twin-towers.png)
 
  [source](https://www.reddit.com/r/shittydataisbeautiful/comments/gkk8bk/height_of_world_trade_center/)
 
@@ -43,7 +43,7 @@ categories: answer
 - Height of WTC is 13
 
 ### Suggested Viz Mockup
- ![](/assets/images/twin-towers-suggestion.png)
+ ![]({{ site.baseurl }}/assets/images/twin-towers-suggestion.png)
 		
 ## Perspective 2: With a sense of humor, this is very good
 ### Basics of current visualization

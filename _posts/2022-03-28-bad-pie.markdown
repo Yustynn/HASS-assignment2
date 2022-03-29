@@ -5,7 +5,7 @@ date:   2022-03-28 22:24:29 +0800
 categories: answer
 ---
 
-![](/assets/images/bad-pie.webp)
+![]({{ site.baseurl }}/assets/images/bad-pie.webp)
 
 [source](https://www.reddit.com/r/dataisugly/comments/tnjf06/im_blue_da_ba_dee_da_ba_di/)
 
@@ -37,4 +37,4 @@ Suggestion: Use a solid color
 
 ## Suggested Viz Mockup
 
-![](/assets/images/bad-pie-suggestion.png)
+![]({{ site.baseurl }}/assets/images/bad-pie-suggestion.png)
