@@ -35,6 +35,9 @@ The gradient makes interpreting the legend difficult.
 
 Suggestion: Use a solid color
 
+### Wrong data
+"International" is a relative description of country of origin, and not a race
+
 ## Suggested Viz Mockup
 
 ![]({{ site.baseurl }}/assets/images/bad-pie-suggestion.png)
